@@ -1,0 +1,45 @@
+/*样式初始化*/
+*{
+	margin:0;
+	padding:0;
+	box-sizing: border-box;
+}
+ul,li{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+/**/
+
+/*单独样式*/
+.pd20{
+	padding:20px;
+}
+.mg-L20{
+	margin-left:20px;
+}
+.warningInfo{
+	border:1px solid red;
+}
+/*----------------*/
+.mainWrap{
+border:1px solid #eee;
+border-radius: 5px;
+}
+.contLine{
+	position:relative;
+	height:50px;
+}
+.contLine hr{
+	width:15%;
+	position:absolute;
+	left:43%;
+	top:0;
+}
+.contLine span{
+	position:absolute;
+	background-color:#fff;
+	left:47%;
+	top:10px;
+}
